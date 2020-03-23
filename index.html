@@ -1,0 +1,57 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, Paper, Scissors!</title>
+        <link href="./css/app.css" rel='stylesheet' type='text/css'>
+    </head>
+
+    <body id="body">
+        <h1>Let's play Rock, Paper, Scissors!</h1>
+
+<div id="base" >
+
+
+	<div id="playerArea"  >
+		player lives :  
+		<div id="livesSink"  >
+			<div id="playerLives"  class="lives">
+			</div>
+		</div>
+		<div id="playerChoise" class="">
+			<img src="./image/paper.jpg" width="" height="" border="0" id="paper">
+			<img src="./image/rock.jpg" width="" height="" border="0" id="rock">
+			<img src="./image/scissors.jpg" width="" height="" border="0" id="scissors">
+		</div>
+
+	</div>
+
+
+	<div id="computerArea"  >
+		computer lives :  
+				<div id="livesSink"  >
+					<div id="computerLives"  class="lives">
+					</div>
+				</div>
+				<div id="playerChoise" class="">
+						<img src="./image/none.jpg" width="" height="" border="0" id="choice1">
+						<img src="./image/none.jpg" width="" height="" border="0" id="choice2">
+						<img src="./image/none.jpg" width="" height="" border="0" id="choice3">
+				</div>
+	</div>
+
+</div>
+
+
+
+<!--         <select id="gameOption" name="gameOption"> -->
+<!--             <option value="N/A">What will you play?</option> -->
+<!--             <option value="rock">Rock</option> -->
+<!--             <option value="paper">Paper</option> -->
+<!--             <option value="scissors">Scissors</option> -->
+<!--         </select> -->
+        <button id="playGame" >Play!</button>
+        <button id="resetGame">Replay!</button>
+        <div id="game_area"></div>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
